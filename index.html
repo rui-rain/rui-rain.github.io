@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-	<title>My page</title>
-</head>
-<body>
-	<h1>按F进入坦克模式</h1>
-	<p><a href="https://rui-rain.github.io/page/chapter02-project01.html">Project1-1</a></p>
-	<p><a href="https://rui-rain.github.io/page/chapter02-project02.html">Project1-2</a></p>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>My page</title>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	</head>
+	<body>
+		<header>
+			<img src="img/极简小站.png" id="logo"/>
+			<a href="#" id="tohome"/>首页</a>
+			<a href="#" id="introduction"/>简介</a>
+			<a href="#" id="about"/>关于</a>
+		</header>
+		<audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="bgmusic.mp3">你的浏览器版本太低，不支持audio标签</audio>
+		<div class="left">
+			<div>
+			<hr><hr>
+			<p><img src="img/MyPicture.jpg" alt="UserPhoto" style="height:100px" /></p>
+			<p>UserName:<br>杨宇芮</p><hr style="border:1px dashed">
+			<p>UserId:<br>2017053405</p><hr style="border:1px dashed">
+			<p>What's up:<br><span>今天也是元气慢慢的一天呢。</span></p>
+			<hr><hr>
+			</div>
+		</div>
+		<div class="middle">
+			<div class="top">
+				<p>最新消息：</p>
+				<h2><span>&nbsp &nbsp </span><i style="text-decoration:underline">Hello World!</i></h2>
+			</div>
+				<p><br><hr></p>
+			<div>
+				<h2>第一次作业<i>（太真实了）</i></h2>
+				<p><span>&nbsp &nbsp </span><a href="hm1/project1_1.html"><b style="text-decoration:underline">Project 1</b></a></p>
+				<p><span>&nbsp &nbsp </span><a href="hm1/project1_2.html"><b style="text-decoration:underline">Project 2</b></a></p>
+			</div>
+		</div>
+		<div class="right">
+		<p>s</p>
+		<div class="sidebar">
+			<div>
+				<p><a href="#">↑ ↑<br>向上<br>翻滚</a></p><hr>
+				<p>०</p><hr>
+				<p><a href="#">向下<br>翻滚<br>↓ ↓</a></p>
+			</div>
+		</div>
+		<br>
+		<footer>
+		<p>&nbsp </p><hr>
+		<p>地址：<a href="#">暨南大学</a></p>
+		<p>邮箱：<a href="#">1330141723@qq.com</a></p>
+		<p>日期：2019/9/19</p>
+		</footer>
+	</body>
+	<Script Language="JavaScript">
+　　 image = new Array(4); //定义image为图片数量的数组
+　　 image [0] = 'tu0.gif' //背景图象的路径
+　　 image [1] = 'tu1.gif'
+　　 image [2] = 'tu2.gif'
+　　 image [3] = 'tu3.gif'
+　　 image [4] = 'tu4.gif'
+　　 number = Math.floor(Math.random() * image.length);
+　　 document.write("<BODY BACKGROUND="+image[number]+">");
+	</Script>
 </html>
