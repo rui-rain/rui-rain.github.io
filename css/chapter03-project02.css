@@ -1,0 +1,89 @@
+header,footer,div{
+	background-color: #283649;
+}
+body{
+	font-family: Arial;
+	margin: 0 auto;
+	max-width: 800px;
+}
+section{
+	margin: 1em 4em;
+	border: 1px solid black;
+}
+h1{
+	padding:0 2em;
+	font-size: 2em;
+}
+hgroup{
+	background: linear-gradient(-45deg,#283649 25%, rgba(11,52,81,1) 0,
+         rgba(11,52,81,1) 50%, #283649 0,
+         #283649 75%, rgba(11,52,81,1) 0);
+	background-size: 10px 10px;
+	padding:0.5em;
+	color: white;
+}
+li{
+	display: inline;
+}
+.top{
+	background-color: rgba(255,255,255,0.2);
+	padding:0 4em;
+	text-align: right;
+}
+.utop{
+	background-color: #C8C8C8;
+	padding:0 4em;
+}
+.Photo{
+	margin:1em auto;
+	text-align: center;
+	background: white;
+}
+.Photo img{
+	border: 1px solid #C8C8C8;
+	padding: 8px;
+}
+.edit\&flag{
+	padding: 4px;
+}
+.edit\&flag a{
+	font-size: 80%;
+	padding: 2px;
+	border-radius:2px;
+	background: linear-gradient(to top right, #C8C8C8, #EEEEEE);
+}
+span{
+	font-style: italic;
+	color: #C8C8C8;
+}
+p{
+	margin: 0.5em;
+}
+a{
+	color: #3AAFD8;
+}
+#edit img,#flag img{
+	position: relative;
+	top: 4px;
+	width: 18px;
+	height: 18px;
+}
+#activity{
+	width: 100%;
+	max-width: 520px;
+}
+a[href^="mailto"] {
+background: url(../img/email.png) no-repeat 0 0;
+background-size:18px 18px;
+padding-left: 1.2em;
+}
+a[href^="tel"] {
+background: url(../img/call.png) no-repeat 0 0;
+background-size:18px 18px;
+padding-left: 1.2em;
+}
+footer{
+	color: white;
+	padding: 0.5em;
+	margin: 1em 4em;
+}
