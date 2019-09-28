@@ -10,14 +10,20 @@ body{
 	font-family: Arial;
 	background-color: #203644;
 }
-
 article{
 	background: #FFFFFF;
 	margin: 0em 4em 0.5em 4em;
 	padding: 0.5em;
 }
+h1{
+	font-size: 32px;
+}
+header p{
+	font-size: 10px;
+}
 h3{
 	color:black;
+	font-size: 18.72px;
 	border-bottom:2px solid #C8C8C8;
 	margin-bottom: 0.5em;
 }
@@ -47,13 +53,20 @@ li{
 }
 #share{
 	font-weight:bold;
-	background:linear-gradient(to top right, #C8C8C8, #EEEEEE);
-	max-width:500px;
+	background:linear-gradient(to top, #C8C8C8, #EEEEEE);
+	max-width:508px;
 	margin-bottom:1.5em;
 	margin-left: 0.5em;
-	padding:0.5em;
+	padding: 4px;
 	border-radius:2px;
 	border:1px solid #C8C8C8;
+}
+#share img{
+	 width: 18px;
+	 height: 18px;
+}
+.comment{
+	margin-top: 1em;
 }
 a{
 	color: #39ADC7;
