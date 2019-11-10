@@ -7,6 +7,8 @@ body, html{
 #container{
 	height:100%;
 	width:100%;}
+div#tangram-suggestion--TANGRAM__16{
+	z-index:3;}
 .control{
 	position:absolute;
 	z-index:2;
