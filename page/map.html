@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/map.css">
+<title>Hello, World -- My Map</title>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=0wyfFWIxGIOtOoYx5oKcjYEjOhlnPUBN"></script> 
+<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+</head>
+<body>
+	<!--置于地图上方-->
+	<div class="control">
+		<div class="inputbox">
+		<!--搜索框-->
+			<input type="text" id="suggestId" maxlength="256" placeholder="Where to go?" value>
+		
+		<!--当前城市-->
+			<input id="position" readonly="readonly" value="Your position"></input>
+			<div id="weather" style="display:none"></div>
+		</div>
+	</div>
+	
+	<!--地图-->
+	<div id="container"></div>
+</div>
+</body>
+<script type="text/javascript" src="../js/map.js"></script>
+<script type="text/javascript" src="../js/weather.js"></script>
+<script type="text/javascript" src="../js/ajax.js"></script>
+</html>  
